@@ -7,6 +7,7 @@
 // Print a line indicating the type of the character given. Follow the format of the examples.
 
 #include <iostream>
+
 using namespace std;
 
 int main () {
@@ -14,4 +15,15 @@ int main () {
 
     cin >> val;
 
+    if (isupper(val)) {
+        cout << "Uppercase letter" << endl;
+    }
+    else if (islower(val)) {
+        cout << "Lowercase letter" << endl;
+    }
+    else {
+        cout << "Number" << endl;
+    }
+
+    return 0;
 }
