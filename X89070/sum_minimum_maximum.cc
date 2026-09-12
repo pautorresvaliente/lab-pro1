@@ -18,6 +18,10 @@ int main () {
             maximum = x;
             minimum = y < z ? y : z;
         }
+        else {
+            maximum = z;
+            minimum = y;
+        }
     } 
     else {
         if (y > z) {
