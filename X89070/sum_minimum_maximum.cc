@@ -24,11 +24,13 @@ int main () {
             maximum = y;
             minimum = x < z ? x : z;
         }
+        else {
+            maximum = z;
+            minimum = x;
+        }
     }
 
-    
-
-    cout << "Six seven" << endl;
+    cout << maximum + minimum << endl;
 
     return 0;
 }
