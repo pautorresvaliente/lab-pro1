@@ -1,0 +1,2 @@
+
+    int machineWins = 0;
