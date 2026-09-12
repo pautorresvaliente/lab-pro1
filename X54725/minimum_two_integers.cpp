@@ -14,7 +14,3 @@ int main() {
     cin >> val1 >> val2;
     cout << (val1 < val2 ? val1 : val2) << endl;
 }
-
-/* 
-    1:29:38 h
-*/
